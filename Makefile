@@ -52,7 +52,8 @@ SRCFILES =  ft_isalpha.c \
 			ft_split.c \
 			ft_strtrim.c \
 			ft_substr.c \
-
+			ft_strchr.c \
+			ft_strjoin.c \
 
 OBJFILES = ${SRCFILES:.c=.o}
 

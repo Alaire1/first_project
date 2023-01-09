@@ -15,7 +15,7 @@
 //size-bounded string copying ad concatenaton 
 // returns initial length of dst plus the length of src
 
-size_t  strlcat(char *dst, const char *src, size_t size)
+size_t  ft_strlcat(char *dst, const char *src, size_t size)
 {
 	size_t	i;
 	size_t	j;
