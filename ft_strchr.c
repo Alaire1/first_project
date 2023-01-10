@@ -5,24 +5,25 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: akaraban <akaraban@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/09 18:16:18 by akaraban          #+#    #+#             */
-/*   Updated: 2023/01/09 19:03:13 by akaraban         ###   ########.fr       */
+/*   Created: 2023/01/10 20:19:02 by akaraban          #+#    #+#             */
+/*   Updated: 2023/01/10 21:11:14 by akaraban         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
 #include "libft.h"
 
-char    *strchr(const char *s, int c)
+char *ft_strchr(const char *s, int c)
 {
     int i;
 
     i = 0;
-    while (s[i])
+    while(s[i])
     {
-        if (s[i] == (char)c)
-            return ((char *)(s + i));
+        if (s[i] == c)
+            return ((char *)s + i);
         i++;
     }
-    return (NULL);
+    if (s[i] == c)
+        return ((char *)s + i);
+    return (0);
 }

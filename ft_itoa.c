@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akaraban <akaraban.student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: akaraban <akaraban@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/26 03:06:44 by akaraban          #+#    #+#             */
-/*   Updated: 2023/01/09 14:24:00 by akaraban         ###   ########.fr       */
+/*   Updated: 2023/01/10 17:24:20 by akaraban         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

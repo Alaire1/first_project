@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akaraban <akaraban.student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: akaraban <akaraban@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/26 03:06:31 by akaraban          #+#    #+#             */
-/*   Updated: 2023/01/03 00:03:44 by akaraban         ###   ########.fr       */
+/*   Updated: 2023/01/10 17:32:52 by akaraban         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,16 +16,16 @@
 passed as an argument.
 */
 
-void ft_striteri(char *s, void (*f)(unsigned int, char*))
+void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
-	unsigned int i;
+	unsigned int	i;
 
 	i = 0;
 	if (s)
 	{
-		while(s[i])
+		while (s[i])
 		{
-			f(i, s + i);
+			f (i, s + i);
 			i++;
 		}
 	}

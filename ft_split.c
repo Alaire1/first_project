@@ -3,14 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akaraban <akaraban.student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: akaraban <akaraban@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/26 03:06:53 by akaraban          #+#    #+#             */
-/*   Updated: 2023/01/09 14:33:41 by akaraban         ###   ########.fr       */
+/*   Updated: 2023/01/10 17:27:48 by akaraban         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 static int	word_len(char *str, char c)
@@ -103,4 +102,3 @@ char	**ft_split(char const *s, char c)
 	dest = str_split(s, c, dest, size);
 	return (dest);
 }
-
